@@ -1,2 +1,5 @@
 # used to make aegis whl file
 build
+
+# used by manager pkg for progress bar
+rich
