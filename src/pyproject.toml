@@ -3,9 +3,14 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aegis_link"
+name = "aegis-link"
 version = "0.0.2"
 description = "AQL Link Framework"
-authors = [{ name = "Daniel Beard" }]
+authors = [
+    { name = "Daniel Beard" }
+]
 requires-python = ">=3.10"
-dependencies = [ ]
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["aql_link*"]
